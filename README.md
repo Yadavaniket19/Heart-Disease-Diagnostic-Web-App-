@@ -56,7 +56,7 @@ The model is trained on a comprehensive clinical symptoms dataset, utilizing key
    cd Heart-Disease-Diagnostic-Web-App-
    ```
 ### 2.Create and activate a virtual environment:
-
+```bash
 python -m venv env
 # On Windows:
 env\Scripts\activate
@@ -65,25 +65,25 @@ source env/bin/activate
 ```
 
 ### 3.Install dependencies:
-
+```bash
 pip install pandas numpy scikit-learn matplotlib seaborn joblib streamlit
 ```
 
 ### 4.Run the Streamlit Web Application:
-
+```bash
 streamlit run app.py
 ```
 
 ### 📁 Repository Structure
-
+```
 ├── app.py                                            # Streamlit web application
 ├── best_model.pkl                                    # Trained machine learning model
 ├── scaler.pkl                                        # Fitted StandardScaler object
 ├── feature_columns.pkl                               # Extracted feature column names
 ├── Health Symptoms and Disease Prediction Dataset.ipynb # Research & EDA notebook
 └── README.md                                         # Project documentation
+```
 
--
 ---
 
 ## 👤 Author
